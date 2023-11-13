@@ -197,6 +197,7 @@
 				var currentTrack = 0;
 			  
 				function playNext() {
+				  console.log("Bài hát kết thúc. Chuyển đến bài hát tiếp theo.");
 				  var audio = document.getElementById('myAudio');
 				  currentTrack = (currentTrack + 1) % playlist.length;
 				  audio.src = playlist[currentTrack];
